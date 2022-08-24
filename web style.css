@@ -1,0 +1,222 @@
+/* HOME PAGE --------------------------------------------------------------------*/
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.web-body {
+    background: rgb(104, 113, 171);
+    background: radial-gradient(circle, rgba(104, 113, 171, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+/* NAVBAR */
+
+.div-navbar {
+    background-color: rgb(132, 0, 255);
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    box-shadow: 0px 14px 48px -7px rgba(132, 0, 255, 0.75);
+    -webkit-box-shadow: 0px 14px 48px -7px rgba(132, 0, 255, 0.75);
+    -moz-box-shadow: 0px 14px 48px -7px rgba(132, 0, 255, 0.75);
+}
+
+.ul-navbar {
+    display: flex;
+}
+
+.li-navbar:hover {
+    background-color: rgb(38, 113, 234);
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+.li-navbar {
+    padding: 2vh;
+    margin: 1vh;
+    list-style-type: none;
+    font-size: large;
+    font-style: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.a-navbar{
+    color: rgb(185, 162, 248);
+    text-decoration: none;
+}
+
+/* CONTENT */
+
+.div-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 86vh;
+}
+
+.div-object {
+    display: flex;
+
+}
+
+.img-content {
+    height: 50vh;
+    width: 30vh;
+    border-style: solid;
+    border-radius: 15%;
+    border-color: blueviolet;
+}
+
+.p-content {
+    color: rgb(185, 162, 248);
+    height: 1vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: inherit;
+    font-size: large;
+    font-style: bolder;
+}
+
+/* #biodata{
+    background-color: #8e22ec;
+    height: 20vh;
+    width: 30vh;
+} */
+
+/* FOOTER */
+
+.footer {
+    height: 5vh;
+    background-color: #8e22ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -2px -18px 48px -7px rgba(132, 0, 255, 0.75);
+    -webkit-box-shadow: -2px -18px 48px -7px rgba(132, 0, 255, 0.75);
+    -moz-box-shadow: -2px -18px 48px -7px rgba(132, 0, 255, 0.75);
+}
+
+.h1-footer {
+    color: rgb(185, 162, 248);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-size: small;
+    font-style: bolder;
+}
+
+/* ABOUT ME PAGE ----------------------------------------------------------*/
+
+.div-contentabout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+}
+
+.div-objectabout{
+    display: flex;
+    justify-content: start;
+}
+
+.vidio-container{
+}
+
+.vidio-content{
+    width: 25vh;
+    height: 25vh;
+    border-style: outset;
+    border-color: #8e22ec;
+    border-radius: 60%;
+}
+
+.containerp{
+    height: 56vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pcontentabout{
+    background-color: #8e22ec;
+    width: 60vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: rgb(55, 48, 97);
+}
+
+.p-contentabout{
+
+    height: 5vh;
+    width: 40vh;
+    background-color: rgb(55, 48, 97);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(185, 162, 248);
+    border-style: solid;
+    border-color: rgb(171, 166, 241);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: inherit;
+    font-size: medium;
+    border-radius: 20%;
+}
+
+.comment{
+    display: flex;
+    justify-content: center;
+    color: rgb(185, 162, 248);
+    font-weight: bolder;
+    font-size: large;
+    font-style: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* CONTACT PAGE-------------------------------------------------------------- */
+
+.div-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 86vh;    
+    
+}
+
+.div-objectcontact{
+    
+}
+
+.img-contact{
+    
+}
+
+.namecontact{
+    display: flex;
+    justify-content: center;
+    color: rgb(185, 162, 248);
+    font-weight: bolder;
+    font-style: initial;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact{
+    height: 10vh;
+    width: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
