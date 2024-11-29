@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.web-body {
+    background: #DFF2EB;
+    /* background: radial-gradient(circle, rgba(104, 113, 171, 1) 0%, rgba(0, 0, 0, 1) 100%); */
+}
+
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.nav-side {
+    display: flexbox;
+    
+    
+}
