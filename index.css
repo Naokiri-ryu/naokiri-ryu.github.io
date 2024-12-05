@@ -78,11 +78,16 @@ body {
 }
 
 object {
-    /* background-color: #003366; */
+    background-color: #353c43;
+    border-radius: 50%;
     width: 600px;
-    max-width: 100%; 
+    max-width: 100%;
     height: 600px;
     max-height: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .img-content {
