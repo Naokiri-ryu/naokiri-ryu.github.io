@@ -31,7 +31,7 @@ body {
 
 .div-navbar {
     padding: 0 20px;
-    background-color: #4A628A;
+    background-color: #066395;
     width: 100%;
     min-height: 50px;
     display: flex;
@@ -44,7 +44,7 @@ body {
 }
 
 .li-navbar:hover {
-    background-color: #BCC5D3;
+    background-color: #2f3c52;
     transition: .2s ease-in-out;
     border-radius: 8px;
 }
